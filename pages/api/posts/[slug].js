@@ -1,15 +1,8 @@
-import { getPostBySlug } from "../../../lib/api";
+import { getPostBySlugJson } from "../../../lib/api";
 
 export default (req, res) => {
   const { slug } = req.query;
   res.status(200).json({
-    name: getPostBySlug(slug, [
-      "title",
-      "date",
-      "slug",
-      "author",
-      "excerpt",
-      "content",
-    ]),
+    name: getPostBySlugJson(slug),
   });
 };
