@@ -11,7 +11,7 @@ jobs:
       APPLICATION_ID: ${{ secrets.APPLICATION_ID }}
       API_KEY: ${{ secrets.API_KEY }}
       INDEX_NAME: ${{ secrets.INDEX_NAME }}
-      CONFIG: '{"index_name":"test_cowin","start_urls":[{"url":"http://cowinindia.org/"}],"selectors":{"lvl0":"h1","lvl1":"h2","lvl2":"h3","lvl3":"h4","lvl4":"h5","lvl5":"#description","text":"#content"}}'
+      CONFIG: '{"index_name":"test_cowin","start_urls":[{"url":"http://cowinindia.org/"}]}'
     name: Index Algolia
     steps:
     - name: Algolia Docsearch Action
