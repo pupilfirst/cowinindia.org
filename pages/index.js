@@ -1,5 +1,5 @@
 import Layout from "../components/layout";
-import { getAllPosts } from "../lib/api";
+import { getAllPostsByLocale } from "../lib/api";
 import IndexQuestionList from "../components/indexQuestionList";
 
 export default function Home({ allPosts }) {
@@ -11,7 +11,13 @@ export default function Home({ allPosts }) {
 }
 
 export async function getStaticProps() {
-  const allPosts = getAllPosts(["title", "date", "slug", "author", "excerpt"]);
+  const allPosts = getAllPostsByLocale("en", [
+    "title",
+    "date",
+    "slug",
+    "author",
+    "excerpt",
+  ]);
 
   return {
     props: { allPosts: allPosts },
