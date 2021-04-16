@@ -1,10 +1,10 @@
 import Link from "next/link";
 
-export default function IndexQuestionList({ posts }) {
+export default function IndexQuestionList({ posts, locale }) {
   return (
     <div className="mx-auto container max-w-4xl px-6">
       {posts.map((post) => (
-        <Link as={`/posts/en/${post.slug}`} href="/posts/[locale]/[slug]">
+        <Link as={`${locale}/${post.slug}`} href="[locale]/[slug]">
           <div className="mt-2 rounded bg-white p-4 shadow-md cursor-pointer">
             <a className="text-indigo-800 font-semibold text-xl">
               {post.title}

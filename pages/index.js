@@ -5,7 +5,7 @@ import IndexQuestionList from "../components/indexQuestionList";
 export default function Home({ allPosts }) {
   return (
     <Layout>
-      <IndexQuestionList posts={allPosts}></IndexQuestionList>
+      <IndexQuestionList posts={allPosts} locale={"en"}></IndexQuestionList>
     </Layout>
   );
 }

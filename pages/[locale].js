@@ -1,11 +1,11 @@
-import Layout from "../../components/layout";
-import { getAllPostsByLocale, getAllLocales } from "../../lib/api";
-import IndexQuestionList from "../../components/indexQuestionList";
+import Layout from "../components/layout";
+import { getAllPostsByLocale, getAllLocales } from "../lib/api";
+import IndexQuestionList from "../components/indexQuestionList";
 
-export default function Home({ allPosts }) {
+export default function Home({ allPosts, locale }) {
   return (
     <Layout>
-      <IndexQuestionList posts={allPosts}></IndexQuestionList>
+      <IndexQuestionList posts={allPosts} locale={locale}></IndexQuestionList>
     </Layout>
   );
 }
@@ -20,7 +20,7 @@ export async function getStaticProps({ params }) {
   ]);
 
   return {
-    props: { allPosts: allPosts },
+    props: { allPosts: allPosts, locale: params.locale },
   };
 }
 

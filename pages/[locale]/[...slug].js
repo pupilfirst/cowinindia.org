@@ -1,8 +1,8 @@
 import { useRouter } from "next/router";
-import Layout from "../../../components/layout";
-import { getPostBySlug, getAllPosts } from "../../../lib/api";
-import ShowPost from "../../../components/showPost";
-import markdownToHtml from "../../../lib/markdownToHtml";
+import Layout from "../../components/layout";
+import { getPostBySlug, getAllPosts } from "../../lib/api";
+import ShowPost from "../../components/showPost";
+import markdownToHtml from "../../lib/markdownToHtml";
 
 export default function Post({ post }) {
   const router = useRouter();

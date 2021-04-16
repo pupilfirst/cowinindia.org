@@ -1,5 +1,5 @@
 ---
-title: "Learn where to register for COVID-19 vaccination"
+title: "जानें कि COVID-19 टीकाकरण के लिए पंजीकरण कहाँ करें"
 excerpt: "You can log into the Co-WIN portal using the link www.cowin.gov.in and click on the “Register/Sign In Yourself” tab to register for COVID-19 vaccination"
 date: "2020-03-16T05:35:07.322Z"
 author:

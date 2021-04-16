@@ -5,7 +5,7 @@ export default function Header() {
         <div className="max-w-4xl container mx-auto py-8 px-4 ">
           <div className="flex flex-col-reverse md:flex-row md:justify-between items-center">
             <h1 className="text-white font-bold text-xl">
-              CoWin | Help Center
+              <a href="/">CoWin | Help Center</a>
             </h1>
             <div className="flex text-white">
               <a
