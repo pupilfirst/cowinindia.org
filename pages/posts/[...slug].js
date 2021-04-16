@@ -4,7 +4,7 @@ import { getPostBySlug, getAllPosts } from "../../lib/api";
 import ShowPost from "../../components/showPost";
 import markdownToHtml from "../../lib/markdownToHtml";
 
-export default function Post({ post, locale, locales }) {
+export default function Post({ post }) {
   const router = useRouter();
   if (!router.isFallback && !post?.slug) {
     return <ErrorPage statusCode={404} />;
@@ -16,7 +16,7 @@ export default function Post({ post, locale, locales }) {
   );
 }
 
-export async function getStaticProps({ params, locale, locales }) {
+export async function getStaticProps({ params }) {
   const post = getPostBySlug(params.slug, [
     "title",
     "date",
@@ -32,26 +32,21 @@ export async function getStaticProps({ params, locale, locales }) {
         ...post,
         content,
       },
-      locale,
-      locales,
     },
   };
 }
 
-export async function getStaticPaths({ locales }) {
-  const paths = [];
+export async function getStaticPaths() {
   const posts = getAllPosts(["slug"]);
-
-  posts.forEach((post) => {
-    locales.forEach((locale) =>
-      paths.push({ params: { slug: post.slug }, locale })
-    );
-  });
-
-  console.log(paths);
-
+  console.log(posts);
   return {
-    paths,
+    paths: posts.map((post) => {
+      return {
+        params: {
+          slug: post.slug.split("/"),
+        },
+      };
+    }),
     fallback: false,
   };
 }
