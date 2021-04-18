@@ -1,11 +1,15 @@
 ---
 title: Where can I register for COVID-19 vaccination?
 excerpt: You can log into the Co-WIN portal using the link www.cowin.gov.in and click on the “Register/Sign In yourself” tab to register for COVID-19 vaccination.
-date: 2021-04-18T20:13:30+00:00
+date: "2021-04-18T20:13:30+00:00"
 author:
   name: Bodhish Thomas
 ---
 You can log into the Co-WIN portal using the link [www.cowin.gov.in](www.cowin.gov.in) and click on the “Register/Sign In yourself” tab to register for COVID-19 vaccination. 
+
+
+![cowin-ss.PNG](https://editor.cowinindia.org/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--b555659954b9c9f9537b7d8d510d08e0b61dd950/cowin-ss.PNG)
+
 
 After clicking on the “Register Yourself” option, the portal will ask for your mobile number and SMS a One Time Password (OTP) to that number.
 
