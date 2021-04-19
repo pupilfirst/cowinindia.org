@@ -24,6 +24,6 @@ You will be required to fill our a form
 After completing the form, click the “Register” button. You will receive a confirmation message – Beneficiary Successfully Registered. 
 
 
-Once successfully registered, you will be able to see “Account Details”. A registered beneficiary is allowed to add three more beneficiaries using the same mobile number.
+Once successfully registered, you will be able to see “Account Details”. A registered beneficiary is allowed to add three more beneficiaries using the same mobile number
 
 
