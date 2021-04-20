@@ -27,3 +27,5 @@ chest pain or pressure<br>
 loss of speech or movement<br>
 
 On average it takes 5–6 days from when someone is infected with the virus for symptoms to show, however it can take up to 14 days.
+
+Source: https://www.who.int/
