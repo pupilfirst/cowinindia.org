@@ -7,8 +7,7 @@ author:
 ---
 You can log into the Co-WIN portal using the link [www.cowin.gov.in](www.cowin.gov.in) and click on the “Register/Sign In yourself” tab to register for COVID-19 vaccination. 
 
-
-![cowin-ss.PNG](https://editor.cowinindia.org/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--b555659954b9c9f9537b7d8d510d08e0b61dd950/cowin-ss.PNG)
+![cowin-ss.PNG](https://docs.cowinindia.org/images/rQ0nrFlL3tG08WuuZp6jBg-cowin-ss.PNG)
 
 
 After clicking on the “Register Yourself” option, the portal will ask for your mobile number and SMS a One Time Password (OTP) to that number.
@@ -16,7 +15,8 @@ After clicking on the “Register Yourself” option, the portal will ask for yo
 After entering the OTP, you will be taken to a page titled “Register for Vaccination”
 
 
-![cowin-otp.PNG](https://editor.cowinindia.org/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBCdz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--cd3ef5b081e25eb0694b83f07f7bf24f85259591/cowin-otp.PNG)
+![cowin-otp.PNG](https://docs.cowinindia.org/images/VLY7k_UGlogkCKmcv7QVow-cowin-otp.PNG)
+
 
 You will be required to fill our a form
 
