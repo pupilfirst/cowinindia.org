@@ -22,3 +22,5 @@ Follow these steps to protect yourself and others from the Corona Virus:
 * Don’t use masks with valves.
 
 Source: https://www.who.int/
+![who-3-factors-poster.jpeg](https://editor.cowinindia.org/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBEUT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--25bf07e68f9e6a60b0079e10b7ee0bde299d6975/who-3-factors-poster.jpeg)
+
