@@ -18,13 +18,41 @@ After clicking on the “Register Yourself” option, the portal will ask for yo
 After entering the OTP, you will be taken to a page titled “Register for Vaccination”
 
 
-
-You will be required to fill our a form
-
-
-After completing the form, click the “Register” button. You will receive a confirmation message – Beneficiary Successfully Registered. 
+![Screenshot 2021-04-19 at 4.11.17 PM.png](https://editor.cowinindia.org/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBEZz09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--0f1d36b5eef2ccac4e069c63d501d3924a15e138/Screenshot%202021-04-19%20at%204.11.17%20PM.png)
 
 
-Once successfully registered, you will be able to see “Account Details”. A registered beneficiary is allowed to add three more beneficiaries using the same mobile number
+You will be required to fill out the form
+
+**Photo ID Proof:** An individual interested to register her/himself will be required to provide her/his photo identity from one of the following: <ol>
+<li>Aadhaar Card</li>
+<li>Driving License</li>
+<li>Health Insurance Smart Card issued under the scheme of Ministry of Labour</li>
+<li>MNREGA Job Card</li>
+<li>Official identity cards issued to MPs/MLAs/MLCs</li>
+<li>PAN Card</li>
+<li>Passbook issued by Bank/Post Office</li>
+<li>Passport</li>
+<li>Pension Document</li>
+<li>Service Identity Card issued to employees by Central/State Govt./PSUs/ Public Limited Companies</li>
+<li>Smart Card issued by RGI under NPR</li>
+<li>Voter ID. </li></ol>
+
+**Citizen must carry selected ID at the time of vaccination.**
+
+
+**Photo ID Number:** Citizen to enter ID number <br>
+**Name:** Enter the name as per the selected ID proof<br>
+**Year of Birth:** Enter the year of birth as per the ID Proof in the format YYYY<br>
+**Gender:** Select Gender (Male/ Female/ Others)
+
+Once the details are entered for registration, Click “**Register**” Button at the bottom right.
+
+
+You will receive a confirmation message – Beneficiary Successfully Registered.
+ 
+
+Once successfully registered, you will be able to see “Account Details”. 
+
+**NOTE:** A registered beneficiary is allowed to add three more beneficiaries using the same mobile number
 
 
