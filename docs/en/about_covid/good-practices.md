@@ -1,0 +1,36 @@
+---
+title: Good Practices to follow
+excerpt: Practices like social distancing, use of face masks, hand hygiene,  respiratory hygiene etc will go a long way in preventing the spread of the Corona Virus
+date: "2021-04-21T01:17:13+00:00"
+author:
+  name: Aparna Sathianathan
+---
+Good Practices against COVID include: <br>
+
+1: SOCIAL DISTANCING<ul><li>
+Ensure a physical distance of at least 6 feet to reduce the spread.</li><li>
+Stay away from crowded environments, where physical distancing cannot be ensured.</li></ul>
+2: WEARING MASKS<ul><li>
+Ensure hand hygiene (thorough washing of hands by soap & water or use an alcohol-based sanitizer), is performed before putting on the mask.</li><li> 
+Place the mask carefully, ensuring it covers the mouth and nose, and tie it securely to minimize any gaps between the face and the mask. </li><li>
+Avoid touching the mask while wearing it. If a used mask is inadvertently touched, use an alcohol-based hand rub or soap and water to clean hands.</li><li>
+Replace masks as soon as they become damp with a new clean, dry mask</li><li>
+Remove the mask using the appropriate technique: do not touch the front of the mask but untie it from behind or from the straps.</li><li>
+After removal of the used mask, clean hands either using alcohol-based hand rub or use soap and water (if hands are visibly soiled). </li><li>
+Do not reuse single-use masks. Discard after each use and dispose them of in a closed bin immediately upon removal.</li></ul>
+3: HAND HYGIENE<br>
+The WHO guidelines on hand hygiene in healthcare (2009) suggest that hand hygiene is the single most important measure for the prevention of infection. 
+Practice frequent hand washing (for at least 40-60 seconds) even when hands are not visibly dirty and use alcohol-based hand sanitizers (for at least 20 seconds). <ul><li>
+Use appropriate product and technique</li><li>
+Rub hands for 20–30 seconds, using an alcohol-based hand rub product is preferable, if hands are not visibly soiled </li><li>
+Wash hands for 40–60 seconds with soap and running water and dry with a single-use towel, when hands are visibly dirty or contaminated with proteinaceous material. </li></ul>
+4: RESPIRATORY HYGIENE<br>
+Respiratory hygiene are measures taken by a person to contain respiratory secretions and prevent the transmission of the infection to other persons. Good respiratory hygiene/cough etiquette can reduce the spread of microorganisms into the environment that cause respiratory infections. The following measures are recommended: <ul><li>
+Cover the nose and mouth when sneezing and/or coughing with a tissue or your sleeve/inside of your elbow, if no tissue is available</li><li>
+Perform hand hygiene afterwards with alcohol-based hand rub products or water and soap if hands are visibly soiled</li><li>
+Stay away from others when ill (particularly for health workers to avoid coming to work when ill)</li><li>
+Avoid introductory shaking hands</li><li>
+Avoid close contact with people who exhibit symptoms</li><li>
+Wear a mask if showcasing respiratory symptoms.</li></ul>
+5: PROMPT SELF-ISOLATION<br>
+All those who get symptoms of COVID-19 should seek medical advice and get promptly isolated at home. This will help to prevent spread of infection and thereby, save your family members, neighbors and friends from disease.
