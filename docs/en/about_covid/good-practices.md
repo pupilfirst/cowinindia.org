@@ -33,4 +33,8 @@ Avoid introductory shaking hands</li><li>
 Avoid close contact with people who exhibit symptoms</li><li>
 Wear a mask if showcasing respiratory symptoms.</li></ul>
 5: PROMPT SELF-ISOLATION<br>
-All those who get symptoms of COVID-19 should seek medical advice and get promptly isolated at home. This will help to prevent spread of infection and thereby, save your family members, neighbors and friends from disease.
+All those who get symptoms of COVID-19 should seek medical advice and get promptly isolated at home. This will help to prevent the spread of infection and thereby, save your family members, neighbours and friends from disease.
+
+
+![Screenshot 2021-04-19 at 6.59.32 PM.png](https://editor.cowinindia.org/rails/active_storage/blobs/redirect/eyJfcmFpbHMiOnsibWVzc2FnZSI6IkJBaHBIQT09IiwiZXhwIjpudWxsLCJwdXIiOiJibG9iX2lkIn19--250278a5c40b2e7349bbe9af147cf26c82a32691/Screenshot%202021-04-19%20at%206.59.32%20PM.png)
+
