@@ -7,11 +7,11 @@ author:
 ---
 Good Practices against COVID include: <br>
 
-1: SOCIAL DISTANCING<ul><li>
-Ensure a physical distance of at least 6 feet to reduce the spread.</li><li>
-Stay away from crowded environments, where physical distancing cannot be ensured.</li></ul>
-2: WEARING MASKS<ul><li>
-Ensure hand hygiene (thorough washing of hands by soap & water or use an alcohol-based sanitizer), is performed before putting on the mask.</li><li> 
+1: SOCIAL DISTANCING
+Ensure a physical distance of at least 6 feet to reduce the spread.
+Stay away from crowded environments, where physical distancing cannot be ensured.<br>
+2: WEARING MASKS<br>
+Ensure hand hygiene (thorough washing of hands by soap & water or use an alcohol-based sanitizer), is performed before putting on the mask.<br>
 Place the mask carefully, ensuring it covers the mouth and nose, and tie it securely to minimize any gaps between the face and the mask. </li><li>
 Avoid touching the mask while wearing it. If a used mask is inadvertently touched, use an alcohol-based hand rub or soap and water to clean hands.</li><li>
 Replace masks as soon as they become damp with a new clean, dry mask</li><li>
