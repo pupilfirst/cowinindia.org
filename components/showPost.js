@@ -1,12 +1,10 @@
 export default function ShowPost({ post }) {
   return (
-    <div className="mx-auto container max-w-4xl px-6">
-      <div className="mt-2 rounded bg-white p-4 shadow-md">
-        <div className="text-indigo-800 font-semibold text-xl">
-          {post.title}
-        </div>
+    <div className="mx-auto container max-w-4xl p-5 prose lg:prose-xl">
+      <div className="mt-2 rounded bg-white p-10 shadow-md">
+        <h2 className=" mb-5">{post.title}</h2>
         <div
-          className="text-gray-600 prose lg:prose-xl"
+          className="prose lg:prose-xl text-justify"
           dangerouslySetInnerHTML={{ __html: post.content }}
         />
       </div>
