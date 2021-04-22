@@ -3,7 +3,7 @@ import { humanize } from "../lib/utils";
 
 function getCategories(posts) {
   const categories = posts.map((post) => post.slug.split("/")[0]);
-  return [...new Set(categories)];
+  return [...new Set(categories)].sort();
 }
 
 function getPostsByCategories(category, posts) {
