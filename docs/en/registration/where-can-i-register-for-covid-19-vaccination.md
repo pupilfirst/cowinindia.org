@@ -23,19 +23,19 @@ After entering the OTP, you will be taken to a page titled “Register for Vacci
 
 You will be required to fill out the form
 
-**Photo ID Proof:** An individual interested to register her/himself will be required to provide her/his photo identity from one of the following: <ol>
-<li>Aadhaar Card</li>
-<li>Driving License</li>
-<li>Health Insurance Smart Card issued under the scheme of Ministry of Labour</li>
-<li>MNREGA Job Card</li>
-<li>Official identity cards issued to MPs/MLAs/MLCs</li>
-<li>PAN Card</li>
-<li>Passbook issued by Bank/Post Office</li>
-<li>Passport</li>
-<li>Pension Document</li>
-<li>Service Identity Card issued to employees by Central/State Govt./PSUs/ Public Limited Companies</li>
-<li>Smart Card issued by RGI under NPR</li>
-<li>Voter ID. </li></ol>
+**Photo ID Proof:** An individual interested to register her/himself will be required to provide her/his photo identity from one of the following: 
+- Aadhaar Card
+- Driving License
+- Health Insurance Smart Card issued under the scheme of Ministry of Labour
+- MNREGA Job Card
+- Official identity cards issued to MPs/MLAs/MLCs
+- PAN Card
+- Passbook issued by Bank/Post Office
+- Passport
+- Pension Document
+- Service Identity Card issued to employees by Central/State Govt./PSUs/ Public Limited Companies
+- Smart Card issued by RGI under NPR
+- Voter ID. 
 
 **Citizen must carry selected ID at the time of vaccination.**
 
