@@ -11,6 +11,7 @@ const arrowOpen = <span className={styles.arrowOpen} />;
 const languageOptions = [
   { label: "English", value: "en" },
   { label: "Hindi", value: "hi" },
+  { label: "Malayalam", value: "ml" },
 ];
 const defaultOption = languageOptions[0];
 
@@ -28,7 +29,7 @@ function handleChange(data, setData, string) {
   if (searchString.length > 3) {
     var timerId = setTimeout(
       () => getResults(data, setData, searchString),
-      1500
+      500
     );
     setData({ ...data, timerId: timerId });
   } else {
@@ -39,7 +40,7 @@ function handleChange(data, setData, string) {
 function displayResults(data) {
   if (data.results.length > 0) {
     return (
-      <div className="absolute z-40 bg-white max-w-4xl overflow-y-scroll max-h-80">
+      <div className="absolute z-40 max-w-4xl overflow-y-scroll max-h-80 rounded bg-white px-4 py-6 shadow-md cursor-pointer">
         {data.results.map((result) => (
           <a key={result["id"]} href={result["url"]}>
             <div className="mt-2 rounded bg-white p-4 shadow-md cursor-pointer">
