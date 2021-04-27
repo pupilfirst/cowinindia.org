@@ -17,7 +17,7 @@ Follow these steps to protect yourself and others from the Corona Virus:
 8. Clean and disinfect surfaces frequently especially those which are regularly touched
 9. Make wearing a mask a normal part of being around other people. The appropriate use, storage and cleaning or disposal are essential to make masks as effective as possible.
  
-*Clean your hands before you put your mask on, as well as before and after you take it off, and after you touch it at any time.
+* Clean your hands before you put your mask on, as well as before and after you take it off, and after you touch it at any time.
 
 * Make sure it covers both your nose, mouth and chin.
 
