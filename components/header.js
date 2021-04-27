@@ -40,17 +40,19 @@ function handleChange(data, setData, string) {
 function displayResults(data) {
   if (data.results.length > 0) {
     return (
-      <div className="absolute z-40 max-w-4xl overflow-y-scroll max-h-80 rounded bg-white px-4 py-6 shadow-md cursor-pointer">
+      <div className="header-search__dropdown absolute z-40 max-w-4xl overflow-y-auto max-h-80 border-t rounded-t rounded-b-md bg-gray-100 px-4 py-4 shadow-2xl cursor-pointer">
+        <div className="space-y-2 pb-4">
         {data.results.map((result) => (
-          <a key={result["id"]} href={result["url"]}>
-            <div className="mt-2 rounded bg-white p-4 shadow-md cursor-pointer">
-              <a className="text-indigo-700 text-sm">{result["title"]}</a>
-              <div className="text-gray-700 mt-2 text-sm">
+          <a className="block" key={result["id"]} href={result["url"]}>
+            <div className="rounded bg-white px-4 py-3 shadow cursor-pointer hover:bg-gray-50 hover:shadow-md">
+              <a className="text-indigo-700 text-base font-medium">{result["title"]}</a>
+              <div className="text-gray-700 mt-1 text-sm">
                 {result["excerpt"]}
               </div>
             </div>
           </a>
         ))}
+        </div>
       </div>
     );
   }
