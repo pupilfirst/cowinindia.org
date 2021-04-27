@@ -5,6 +5,8 @@ date: "2021-04-21T01:28:33+00:00"
 author:
   name: Aparna Sathianathan
 ---
+Vaccines contain weakened or inactive parts of a particular organism (antigen) that triggers an immune response within the body.
+
 Disease-causing organisms like virus, bacteria, fungus etc are called Pathogens. When a pathogen does infect the body, our body’s defences, called the immune system, are triggered and the pathogen is attacked and destroyed or overcome.
 
 Each pathogen is made up of several subparts, usually unique to that specific pathogen and the disease it causes. The subpart of a pathogen that causes the formation of antibodies is called an antigen. The antibodies produced in response to the pathogen’s antigen are an important part of the immune system.
