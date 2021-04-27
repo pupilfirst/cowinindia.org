@@ -39,6 +39,7 @@ Practice frequent hand washing (for at least 40-60 seconds) even when hands are 
 4: RESPIRATORY HYGIENE
 
 Respiratory hygiene are measures taken by a person to contain respiratory secretions and prevent the transmission of the infection to other persons. Good respiratory hygiene/cough etiquette can reduce the spread of microorganisms into the environment that cause respiratory infections. The following measures are recommended: 
+
 -Cover the nose and mouth when sneezing and/or coughing with a tissue or your sleeve/inside of your elbow, if no tissue is available
 
 -Perform hand hygiene afterwards with alcohol-based hand rub products or water and soap if hands are visibly soiled
