@@ -69,24 +69,28 @@ export default function Header() {
   return (
     <header className="flex-shrink-0">
       <div className="bg-indigo-900 ">
-        <div className="max-w-4xl container mx-auto py-8 px-4 ">
+        <div className="max-w-4xl container mx-auto py-6 px-4 md:px-0 ">
           <div className="flex flex-col-reverse md:flex-row md:justify-between items-center">
-            <h1 className="text-white font-bold text-xl">
+            <h1 className="text-white font-bold text-xl pt-4 md:pt-0">
               <Link href="/">
-                <a>CoWin | Help Center</a>
+                <a>CoWin<span className="font-light ml-2 pl-2 border-l-2">Help Center</span></a>
               </Link>
             </h1>
-            <div className="flex text-white items-center">
+            <div className="flex space-x-5 text-white items-center">
               <a
                 target="_blank"
                 rel="noopener"
                 href="https://www.cowin.gov.in/"
-                className="px-2 mr-3"
+                className="px-3 py-2 border border-transparent rounded flex space-x-2 items-center bg-indigo-100 bg-opacity-10 hover:bg-opacity-20 hover:shadow-lg transition"
               >
+                <span>
+                  <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5" d="M10 6H6a2 2 0 00-2 2v10a2 2 0 002 2h10a2 2 0 002-2v-4M14 4h6m0 0v6m0-6L10 14" />
+                  </svg>
+                </span>
                 <span>Go to Cowin</span>
               </a>
               <div className="flex items-center">
-                <span className="mr-2"> &#x1F310;</span>
                 <Dropdown
                   controlClassName={styles.dropdownControl}
                   arrowClosed={arrowClosed}
@@ -95,21 +99,21 @@ export default function Header() {
                   onChange={onLanguageSelect}
                   value={defaultOption}
                   placeholder="Language"
-                  placeholderClassName="text-white"
+                  placeholderClassName="text-white cursor-pointer rounded"
                 />
               </div>
             </div>
           </div>
-          <div className="mt-4 text-lg text-white">
+          <label className="inline-block pt-4 md:pt-6 text-indigo-100">
             Advice and answers from the Cowin Team
-          </div>
+          </label>
           <input
             type="text"
             onChange={(e) => {
               let value = e.target.value;
               handleChange(data, setData, value);
             }}
-            className="mt-6 w-full h-12 rounded mb-8 focus:outline-none focus:shadow-outline text-xl px-8 shadow-lg"
+            className="mt-2 w-full rounded focus:outline-none focus:ring text-lg py-3 px-4 shadow-lg"
             placeholder="Search for articles..."
             name="search"
           ></input>

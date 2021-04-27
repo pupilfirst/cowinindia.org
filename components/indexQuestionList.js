@@ -12,24 +12,26 @@ function getPostsByCategories(category, posts) {
 
 export default function IndexQuestionList({ posts, locale }) {
   return (
-    <div className="mx-auto container max-w-4xl p-6 bg-gray-300 border rounded">
+    <div className="mx-auto container max-w-4xl p-4 md:p-6 bg-gray-100 md:rounded-lg">
       {getCategories(posts).map((category) => (
-        <div className="mb-8">
-          <div className="mb-4 text-2xl font-semibold">
+        <div className="pb-8">
+          <h2 className="pb-3 text-2xl font-medium text-gray-700">
             {humanize(category)}
-          </div>
-          {getPostsByCategories(category, posts).map((post) => (
-            <Link
-              key={post.slug}
-              as={`${locale}/${post.slug}`}
-              href="[locale]/[...slug]"
-            >
-              <div className="mt-2 rounded bg-white p-4 shadow-md cursor-pointer">
-                <a className="text-indigo-700 text-xl">{post.title}</a>
-                <div className="text-gray-700 mt-2">{post.excerpt}</div>
+          </h2>
+          <div className="space-y-2 md:space-y-3">
+            {getPostsByCategories(category, posts).map((post) => (
+              <Link
+                key={post.slug}
+                as={`${locale}/${post.slug}`}
+                href="[locale]/[...slug]"
+              >
+              <div className="bg-white shadow rounded-md p-5 cursor-pointer hover:bg-gray-50 hover:shadow-lg transition">
+                <a className="text-indigo-600 font-medium text-xl">{post.title}</a>
+                <p className="text-gray-600 mt-1 text-base md:text-lg">{post.excerpt}</p>
               </div>
-            </Link>
-          ))}
+              </Link>
+            ))}
+          </div>
         </div>
       ))}
       <script src="https://cowin-bot.netlify.app/Index.js"></script>
