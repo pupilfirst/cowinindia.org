@@ -5,6 +5,7 @@ date: "2021-04-21T06:51:40+00:00"
 author:
   name: Fathima Sadheeda
 ---
+An Adverse Event Following Immunization(AEFI) is any untoward medical occurrence which follows immunization, and which does not necessarily have a causal relationship with the usage of the vaccine.
 For purposes of reporting, AEFIs can be classified as minor, severe and serious
 
 What to do if you expirience an AEFI:
